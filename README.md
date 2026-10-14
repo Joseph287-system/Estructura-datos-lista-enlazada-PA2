@@ -12,8 +12,8 @@
 | 1 | Wilmer Jamener Guevara Ramos | [Aporte / Rol] |
 | 2 | Javier Alonso Gallegos Rodriguez | listas dobles y circulares, diagramas y justificación |
 | 3 | Joseph Antonio Fong Millones | Redacción, diagramación y documentación de estructuras dinámicas |
-| 4 | Marco Ychuta Saldivar | [Aporte / Rol] |
-| 5 | Genesis Paloma Lucia Chuqui Allca | [Aporte / Rol] |
+| 4 | Marco Ychuta Saldivar |  Recorrido e inserción ] |
+| 5 | Genesis Paloma Lucia Chuqui Allca | Lista enlazada simple: búsqueda, modificación y eliminación |
 
 ---
 
