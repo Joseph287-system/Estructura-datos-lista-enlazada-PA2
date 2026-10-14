@@ -49,7 +49,7 @@ En el sistema de la organización, las solicitudes de atención ingresan, se ati
 #### A. Representación Básica (Lista Enlazada Simple)
 Ilustra la estructura unidireccional básica con 5 solicitudes de atención finalizando en `NULL`:
 
-![Lista Enlazada Simple](lista_simple-10-13%20185002.png)
+![Lista Enlazada Simple](Lista-Enlazad-Simple-10-13 184935.png)
 
 * **Descripción:** Comienza en la cabeza (`Head`), cada nodo almacena la solicitud (`ID 101` a `ID 105`) y el puntero al siguiente nodo. La lista finaliza con la referencia a `NULL`.
 
