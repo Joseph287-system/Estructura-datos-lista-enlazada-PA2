@@ -27,15 +27,15 @@ Diseñar y fundamentar el uso de listas enlazadas (simples, dobles y circulares)
 
 ---
 
-## 3. Desarrollo de la Actividad 1: Fundamentos y Representación de Listas Enlazadas
+##  la Actividad 1: Fundamentos y Representación de Listas Enlazadas
 
-### 3.1. ¿Qué es una lista enlazada?
+### 1.1. ¿Qué es una lista enlazada?
 Una lista enlazada es una estructura de datos dinámica compuesta por una serie de nodos. Cada nodo almacena un dato (información de la solicitud) y una o más referencias (punteros) hacia otros nodos. A diferencia de un arreglo convencional, no requiere memoria contigua ni un tamaño fijo predefinido, lo que facilita las operaciones de inserción y eliminación sin necesidad de desplazar elementos adyacentes.
 
 **Relación con el caso planteado:**  
 En el sistema de la organización, las solicitudes de atención ingresan, se atienden o se eliminan en tiempo real. La lista enlazada permite gestionar esta secuencia dinámica reordenando únicamente los punteros de los nodos sin necesidad de reestructurar todo el conjunto de datos.
 
-### 3.2. Clasificación de listas enlazadas
+### 1.2. Clasificación de listas enlazadas
 * **Lista enlazada simple:** Cada nodo contiene un campo de datos y una referencia únicamente al siguiente nodo. Se recorre en un solo sentido desde la cabeza (`Head`) hasta encontrar un valor nulo (`NULL`).
 * **Lista doblemente enlazada:** Cada nodo posee dos referencias: una al nodo siguiente y otra al nodo anterior. Permite la navegación bidireccional (avanzar y retroceder) a partir de cualquier nodo.
 * **Lista circular:** El último nodo de la secuencia no apunta a `NULL`, sino que se conecta de regreso al primer nodo (cabeza). Permite ciclos continuos de revisión de elementos.
@@ -44,7 +44,7 @@ En el sistema de la organización, las solicitudes de atención ingresan, se ati
 
 ---
 
-### 3.3. Representaciones Gráficas de la Lista Enlazada (5 Nodos)
+### 1.3. Representaciones Gráficas de la Lista Enlazada (5 Nodos)
 
 #### A. Representación Básica (Lista Enlazada Simple)
 Ilustra la estructura unidireccional básica con 5 solicitudes de atención finalizando en `NULL`:
