@@ -60,7 +60,7 @@ Estructura adaptada para permitir la navegación en ambos sentidos y la revisió
 
 * **Descripción:** Cada nodo contiene punteros a `Anterior` y `Siguiente`. El enlace circular conecta el último nodo (`Solicitud 105`) con el primero (`Solicitud 101`) y viceversa, permitiendo recorridos bidireccionales continuos.
 
----
+## Actividad 2. Recorrido e inserción
 ssdsds
 class Nodo {
     int dato;
