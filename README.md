@@ -56,7 +56,7 @@ Ilustra la estructura unidireccional básica con 5 solicitudes de atención fina
 #### B. Representación Adaptada al Caso (Lista Doblemente Enlazada Circular)
 Estructura adaptada para permitir la navegación en ambos sentidos y la revisión cíclica continua:
 
-![Lista Doblemente Enlazada Circular](Captura%20de%20pantalla%202026-10-13%2018...)
+![Lista Doblemente Enlazada Circular](lista_doblemente-circular-10-13 185002.png.)
 
 * **Descripción:** Cada nodo contiene punteros a `Anterior` y `Siguiente`. El enlace circular conecta el último nodo (`Solicitud 105`) con el primero (`Solicitud 101`) y viceversa, permitiendo recorridos bidireccionales continuos.
 
