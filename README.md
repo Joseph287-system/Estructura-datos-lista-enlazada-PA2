@@ -49,14 +49,14 @@ En el sistema de la organización, las solicitudes de atención ingresan, se ati
 #### A. Representación Básica (Lista Enlazada Simple)
 Ilustra la estructura unidireccional básica con 5 solicitudes de atención finalizando en `NULL`:
 
-![Lista Enlazada Simple](Lista-Enlazad-Simple-10-13%20184935.png.)
+![Lista Enlazada Simple](Lista-Enlazad-Simple-10-13%20184935.png)
 
 * **Descripción:** Comienza en la cabeza (`Head`), cada nodo almacena la solicitud (`ID 101` a `ID 105`) y el puntero al siguiente nodo. La lista finaliza con la referencia a `NULL`.
 
 #### B. Representación Adaptada al Caso (Lista Doblemente Enlazada Circular)
 Estructura adaptada para permitir la navegación en ambos sentidos y la revisión cíclica continua:
 
-![Lista Doblemente Enlazada Circular](lista_doblelemente-circular-10-13%20185002.png.)
+![Lista Doblemente Enlazada Circular](lista_doblelemente-circular-10-13%20185002.png)
 
 * **Descripción:** Cada nodo contiene punteros a `Anterior` y `Siguiente`. El enlace circular conecta el último nodo (`Solicitud 105`) con el primero (`Solicitud 101`) y viceversa, permitiendo recorridos bidireccionales continuos.
 
