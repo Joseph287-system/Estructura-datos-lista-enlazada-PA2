@@ -1,1 +1,101 @@
-# Estructura-datos-lista-enlazada-PA2
+# README — Evaluación producto académico 2
+
+> **Curso:** ALGORITMO Y ESTRUCTURA DE DATOS BASADOS EN INTELIGENCIA ARTIFICIAL  
+> **Código:** 30690  
+> **Evaluación:** PA2  
+> **Equipo:** [Grupo Programadores]  
+
+## 1. Integrantes
+
+| N° | Integrante | Aporte principal |
+|---|---|---|
+| 1 | Wilmer Jamener Guevara Ramos | [Aporte / Rol] |
+| 2 | Javier Alonso Gallegos Rodriguez | [Aporte / Rol] |
+| 3 | Joseph Antonio Fong Millones | Redacción, diagramación y documentación de estructuras dinámicas |
+| 4 | Marco Ychuta Saldivar | [Aporte / Rol] |
+| 5 | Genesis Paloma Lucia Chuqui Allca | [Aporte / Rol] |
+
+---
+
+## 2. Descripción del caso de trabajo
+
+**Caso de Estudio:**  
+Una organización requiere gestionar una secuencia dinámica de solicitudes de atención. El registro cambia constantemente: ingresan nuevos casos, algunos se eliminan, otros deben reubicarse y en ciertos procesos se necesita navegar en ambos sentidos o mantener un ciclo continuo de revisión.
+
+**Objetivo:**  
+Diseñar y fundamentar el uso de listas enlazadas (simples, dobles y circulares) para estructurar el flujo de solicitudes de atención, optimizando la inserción, eliminación, reubicación y recorrido bidireccional o continuo de los datos.
+
+---
+
+## 3. Desarrollo de la Actividad 1: Fundamentos y Representación de Listas Enlazadas
+
+### 3.1. ¿Qué es una lista enlazada?
+Una lista enlazada es una estructura de datos dinámica compuesta por una serie de nodos. Cada nodo almacena un dato (información de la solicitud) y una o más referencias (punteros) hacia otros nodos. A diferencia de un arreglo convencional, no requiere memoria contigua ni un tamaño fijo predefinido, lo que facilita las operaciones de inserción y eliminación sin necesidad de desplazar elementos adyacentes.
+
+**Relación con el caso planteado:**  
+En el sistema de la organización, las solicitudes de atención ingresan, se atienden o se eliminan en tiempo real. La lista enlazada permite gestionar esta secuencia dinámica reordenando únicamente los punteros de los nodos sin necesidad de reestructurar todo el conjunto de datos.
+
+### 3.2. Clasificación de listas enlazadas
+* **Lista enlazada simple:** Cada nodo contiene un campo de datos y una referencia únicamente al siguiente nodo. Se recorre en un solo sentido desde la cabeza (`Head`) hasta encontrar un valor nulo (`NULL`).
+* **Lista doblemente enlazada:** Cada nodo posee dos referencias: una al nodo siguiente y otra al nodo anterior. Permite la navegación bidireccional (avanzar y retroceder) a partir de cualquier nodo.
+* **Lista circular:** El último nodo de la secuencia no apunta a `NULL`, sino que se conecta de regreso al primer nodo (cabeza). Permite ciclos continuos de revisión de elementos.
+
+> **Estructura idónea para el caso:** Para cumplir con todos los requerimientos del caso de trabajo (navegación bidireccional y ciclo continuo de revisión), la estructura óptima a implementar es una **lista doblemente enlazada circular**.
+
+---
+
+### 3.3. Representaciones Gráficas de la Lista Enlazada (5 Nodos)
+
+#### A. Representación Básica (Lista Enlazada Simple)
+Ilustra la estructura unidireccional básica con 5 solicitudes de atención finalizando en `NULL`:
+
+![Lista Enlazada Simple](lista_simple-10-13%20185002.png)
+
+* **Descripción:** Comienza en la cabeza (`Head`), cada nodo almacena la solicitud (`ID 101` a `ID 105`) y el puntero al siguiente nodo. La lista finaliza con la referencia a `NULL`.
+
+#### B. Representación Adaptada al Caso (Lista Doblemente Enlazada Circular)
+Estructura adaptada para permitir la navegación en ambos sentidos y la revisión cíclica continua:
+
+![Lista Doblemente Enlazada Circular](Captura%20de%20pantalla%202026-10-13%2018...)
+
+* **Descripción:** Cada nodo contiene punteros a `Anterior` y `Siguiente`. El enlace circular conecta el último nodo (`Solicitud 105`) con el primero (`Solicitud 101`) y viceversa, permitiendo recorridos bidireccionales continuos.
+
+---
+
+## 4. Evidencias
+
+- Documento original de trabajo: `4134_Fong_Joseph_ListaEnlazada.docx`
+- Diagrama 1: Lista enlazada simple de solicitudes (`lista_simple-10-13 185002.png`)
+- Diagrama 2: Lista doblemente enlazada y circular (`Captura de pantalla...png`)
+
+---
+
+## 5. Matriz de participación
+
+| Integrante | Desarrollo | Pruebas | Documentación | Exposición | Evidencia de participación |
+|---|---|---|---|---|---|
+| Wilmer Jamener Guevara Ramos | Alta | Alta | Media | Sí | Commits y avance de caso |
+| Javier Alonso Gallegos Rodriguez | Alta | Media | Media | Sí | Commits y avance de caso |
+| Joseph Antonio Fong Millones | Alta | Alta | Alta | Sí | Redacción de teoría y diagramas |
+| Marco Ychuta Saldivar | Alta | Media | Media | Sí | Commits y avance de caso |
+| Genesis Paloma Lucia Chuqui Allca | Alta | Media | Media | Sí | Commits y avance de caso |
+
+---
+
+## 6. Video de exposición
+
+**Video público de YouTube:** [PEGAR AQUÍ EL ENLACE DEL VIDEO]
+
+*Todos los integrantes participan con cámaras encendidas explicando la solución.*
+
+---
+
+## 7. Conclusiones
+
+1. Las listas enlazadas proporcionan la flexibilidad requerida para un registro dinámico de solicitudes donde las inserciones y eliminaciones son frecuentes.
+2. La implementación de punteros dobles (anterior y siguiente) resuelve la necesidad de navegación bidireccional en el flujo de revisión de la organización.
+3. El enfoque circular elimina la presencia de límites (`NULL`) en los extremos, garantizando un ciclo continuo e ininterrumpido en la atención de casos.
+
+---
+
+**Última actualización:** 14/10/2026
