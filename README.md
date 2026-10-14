@@ -251,7 +251,7 @@ Para recorrer la lista una sola vez, se detiene el proceso cuando se regresa al 
 | Wilmer Jamener Guevara Ramos | Alta | Alta | Media | Sí | Commits y avance de caso |
 | Javier Alonso Gallegos Rodriguez | Alta | Media | Media | Sí | Commits y avance de caso |
 | Joseph Antonio Fong Millones | Alta | Alta | Alta | Sí | Redacción de teoría y diagramas |
-| Marco Ychuta Saldivar | Alta | Media | Media | Sí | Commits y avance de caso |
+| Marco Ychuta Saldivar | Alta | Media | Media | Sí | Recoorido e insercion|
 | Genesis Paloma Lucia Chuqui Allca | Alta | Media | Media | Sí | Commits y avance de caso |
 
 ---
