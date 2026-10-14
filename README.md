@@ -62,6 +62,53 @@ Estructura adaptada para permitir la navegación en ambos sentidos y la revisió
 
 ---
 
+## Actividad 4: Listas dobles y circulares
+
+Los números 29, 3, 4 y 13 representan códigos de solicitudes de atención, siguiendo los ejemplos utilizados en las actividades 2 y 3.
+
+### 4.1. Situación para utilizar una lista doble
+
+El encargado necesita avanzar entre las solicitudes y regresar a una solicitud anterior para consultar sus datos. Para ello, cada nodo contiene el código de la solicitud y dos enlaces: `anterior` y `siguiente`.
+
+**Representación gráfica:**
+
+```mermaid
+flowchart LR
+    A["Solicitud 29"] <--> B["Solicitud 3"]
+    B <--> C["Solicitud 4"]
+    C <--> D["Solicitud 13"]
+```
+
+El enlace `anterior` de la solicitud 29 y el enlace `siguiente` de la solicitud 13 apuntan a `null`. Las flechas en ambos sentidos representan los enlaces entre nodos consecutivos.
+
+**Justificación:**
+
+La lista doble permite avanzar y retroceder directamente entre las solicitudes. Es más adecuada que una lista simple para este proceso porque permite consultar el nodo anterior sin recorrer nuevamente la lista desde el inicio.
+
+### 4.2. Situación para utilizar una lista circular
+
+El encargado necesita revisar periódicamente las solicitudes pendientes. Después de revisar la última solicitud, vuelve a la primera para comenzar una nueva ronda de seguimiento.
+
+**Representación gráfica:**
+
+```mermaid
+flowchart LR
+    A["Solicitud 29"] --> B["Solicitud 3"]
+    B --> C["Solicitud 4"]
+    C --> D["Solicitud 13"]
+    D --> A
+```
+
+Cada nodo tiene un enlace `siguiente`. El último nodo, correspondiente a la solicitud 13, apunta a la solicitud 29 en lugar de apuntar a `null`.
+
+**Justificación:**
+
+La lista circular permite continuar la revisión desde la última solicitud hasta la primera mediante el mismo enlace `siguiente`. Es más adecuada que una lista simple para representar un ciclo continuo, porque no es necesario reiniciar explícitamente el recorrido al llegar al final.
+
+Para recorrer la lista una sola vez, se detiene el proceso cuando se regresa al nodo inicial. Si la lista está vacía, no se inicia el recorrido.
+
+---
+
 ## 4. Evidencias
 
 - Documento original de trabajo: `4134_Fong_Joseph_ListaEnlazada.docx`
