@@ -163,8 +163,14 @@ public class Main {
 //ACTIVIDAD 2.1.  El algoritmo visita cada nodo desde head hasta llegar a null, mostrando 
 // sus datos. La estructura de la lista no cambia, porque únicamente se recorren los nodos.
 
+            // RECORRIDO COMPLETO
+                        29 3 4 13 
+
+
 //ACTIVIDAD 2.2. Se crea un nuevo nodo con el valor 10, se conecta con el 
 // primer nodo existente y se actualiza head para que apunte al nuevo nodo.
+            //INSERCION AL INICIO
+                        10 29 3 4 13 
 
 //ACTIVIDAD 2.3  Se recorre la lista hasta encontrar el último nodo, cuyo enlace apunta
 //  a null. Luego, se conecta ese nodo con el nuevo nodo que contiene 50.
