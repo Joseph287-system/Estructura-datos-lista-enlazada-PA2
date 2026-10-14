@@ -61,6 +61,13 @@ Estructura adaptada para permitir la navegación en ambos sentidos y la revisió
 * **Descripción:** Cada nodo contiene punteros a `Anterior` y `Siguiente`. El enlace circular conecta el último nodo (`Solicitud 105`) con el primero (`Solicitud 101`) y viceversa, permitiendo recorridos bidireccionales continuos.
 
 ---
+ssdsds
+
+
+
+
+
+
 
 ## Actividad 4: Listas dobles y circulares
 
