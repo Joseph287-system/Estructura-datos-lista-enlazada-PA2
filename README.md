@@ -9,7 +9,7 @@
 
 | N° | Integrante | Aporte principal |
 |---|---|---|
-| 1 | Wilmer Jamener Guevara Ramos | [Aporte / Rol] |
+| 1 | Wilmer Jamener Guevara Ramos | [Conclusiones|
 | 2 | Javier Alonso Gallegos Rodriguez | listas dobles y circulares, diagramas y justificación |
 | 3 | Joseph Antonio Fong Millones | Redacción, diagramación y documentación de estructuras dinámicas |
 | 4 | Marco Ychuta Saldivar |  Recorrido e inserción ] |
