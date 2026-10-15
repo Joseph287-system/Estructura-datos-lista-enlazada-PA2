@@ -436,7 +436,7 @@ Para recorrer la lista una sola vez, se detiene el proceso cuando se regresa al 
 
 ## 6. Video de exposición
 
-**Video público de YouTube:** [PEGAR AQUÍ EL ENLACE DEL VIDEO]
+**Video público de YouTube:** https://www.youtube.com/watch?v=uzmCmMGjLj0
 
 *Todos los integrantes participan con cámaras encendidas explicando la solución.*
 
